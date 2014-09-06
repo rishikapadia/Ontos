@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from rest_framework import viewsets
-from tutorial.quickstart.serializers import UserSerializer
+from ontosApp.serializers import UserSerializer
 
 # Create your views here.
 class UserViewSet(viewsets.ModelViewSet):
